@@ -4,5 +4,9 @@ jdk:
   - openjdk7
   - oraclejdk8
  
- notifications:
-  email: false
+notifications:
+  email:
+    recipients:
+      - crigalbla@alum.us.es
+    on_success: never
+    on_failure: never
