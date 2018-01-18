@@ -3,10 +3,4 @@ language: java
 jdk:
   - openjdk7
   - oraclejdk8
-  
-notifications:
-  email:
-    recipients:
-      - crigalbla@alum.us.es
-    on_success: change # default: change
-    on_failure: change # default: always
+ 
